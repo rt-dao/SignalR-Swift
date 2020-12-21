@@ -11,6 +11,8 @@ import Alamofire
 
 public class HttpTransport: ClientTransportProtocol {
 
+    public init() {}
+
     public var name: String? {
         return ""
     }
